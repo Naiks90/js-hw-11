@@ -1,0 +1,15 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  background-color: aquamarine;
+}
+.value {
+  font-size: 25px;
+}

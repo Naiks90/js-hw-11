@@ -22,8 +22,9 @@ function interval() {
 }
 
 function randomColor() {
-  bodeRef.style.backgroundColor = colors[randomIntegerFromInterval(0, 5)];
+  bodeRef.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)];
 }
 function stopRandomColor() {
   clearInterval(timerID);
+  isActive = false;
 }
